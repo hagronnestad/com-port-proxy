@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComPortProxy", "ComPortProxy\ComPortProxy.csproj", "{68018E31-6EE4-4357-85BC-F0FFDF23A5F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComPortProxy.Ui", "ComPortProxy.Ui\ComPortProxy.Ui.csproj", "{8CE00435-832D-4F12-BFFD-8E696DD715E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{68018E31-6EE4-4357-85BC-F0FFDF23A5F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68018E31-6EE4-4357-85BC-F0FFDF23A5F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68018E31-6EE4-4357-85BC-F0FFDF23A5F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CE00435-832D-4F12-BFFD-8E696DD715E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CE00435-832D-4F12-BFFD-8E696DD715E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CE00435-832D-4F12-BFFD-8E696DD715E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CE00435-832D-4F12-BFFD-8E696DD715E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
