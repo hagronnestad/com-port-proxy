@@ -46,8 +46,6 @@ namespace ComPortProxy {
             while (!bw1.CancellationPending) {
 
                 try {
-                    if (!sp1.IsOpen) sp1.Open();
-
                     var c = sp1.Read(buffer, 0, buffer.Length);
                     sp2.Write(buffer, 0, c);
 
@@ -69,8 +67,6 @@ namespace ComPortProxy {
             while (!bw1.CancellationPending) {
 
                 try {
-                    if (!sp2.IsOpen) sp2.Open();
-
                     var c = sp2.Read(buffer, 0, buffer.Length);
                     sp1.Write(buffer, 0, c);
 
